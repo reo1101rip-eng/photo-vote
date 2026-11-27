@@ -119,7 +119,7 @@
 const $ = id => document.getElementById(id);
 
 /* ★設定: Apps Script をウェブアプリとしてデプロイしたときの /exec URL を貼ってください */
-const API_URL = 'ここに /exec のURLを貼る';
+const API_URL = 'https://script.google.com/macros/s/AKfycbykfY5obhkdRyaFweG95bBACCSBVujRvI5BsKNg4QySM_xH7XXSSJMoOHVK-_sffLXz/exec';
 
 /* Apps Script API を JSONP で呼ぶ（CORS回避のため） */
 let cbSeq = 0;
